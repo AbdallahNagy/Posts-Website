@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: large;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: coral;
+    
+}
+
+#posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: goldenrod;
+    height: 250px;
+    width: 80%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.post-title {
+    padding: 5px;
+}
+
+.post-body {
+    padding: 30px;
+}
